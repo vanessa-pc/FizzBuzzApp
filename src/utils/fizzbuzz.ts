@@ -7,3 +7,8 @@ export function fizzbuzz(number: number): number | string {
     ? "Fizz"
     : number;
 }
+
+export function fizzbuzzsequence(number: number): number | string {
+  const nextNumber = number + 1;
+  return fizzbuzz(nextNumber);
+}
